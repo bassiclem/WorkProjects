@@ -1,4 +1,7 @@
 class Donnees:
+    """
+    This class is now commented in english
+    """
     def __init__(self, chaine_donnee):
         print (type(chaine_donnee))
         self.chaine = chaine_donnee
@@ -26,8 +29,6 @@ class Donnees:
                 k += 1
         else:
             print ("pas de decomposition possible")
-
-
         return part_hexa
 
 
